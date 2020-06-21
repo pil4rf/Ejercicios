@@ -1,0 +1,112 @@
+body {
+
+}
+
+.container {
+	width: 1000px;
+	position: absolute;
+}
+
+.table {
+	background: url('mesa.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 275px;
+	height: 166px;
+	position: relative;
+	margin: 160px;
+}
+
+.segment {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.segment-horizontal {
+	width: 100px;
+	top: 0;
+	bottom: 0;
+}
+
+.segment-vertical {
+	height: 100px;	
+	left: 0;
+	right: 0;
+}
+
+.up {
+	top: -100px;
+}
+
+.down {	
+	bottom: -100px;
+}
+
+.left {
+	left: -100px;
+}
+
+.right {
+	right: -100px;
+}
+
+
+.chair {
+	background: url('silla.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 81px;
+	height: 77px;
+	margin: 10px;
+	visibility: hidden;
+}
+
+.down .chair {
+	transform: rotate(180deg);
+}
+
+.left .chair {
+	transform: rotate(-90deg);
+}
+
+.right .chair {
+	transform: rotate(90deg);
+}
+
+
+.settings {
+	position: absolute;
+	right: 48px;
+	top: 48px;
+	display: flex;
+}
+
+.button {
+	width: 64px;
+	height: 64px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 36px;
+	font-family: sans-serif;
+	margin-right: 24px;
+	border-radius: 50%;
+}
+
+.button-add {
+	background: red;
+}
+
+.button-remove {
+	background: green;
+}
+
+
+
+
+
+
+
